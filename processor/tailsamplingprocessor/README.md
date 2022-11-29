@@ -15,7 +15,7 @@ collector instances, but this configuration has not been tested. Please refer to
 The following configuration options are required:
 - `policies` (no default): Policies used to make a sampling decision
 
-Multiple policies exist today and it is straight forward to add more. These include:
+Multiple policies exist today and it is straightforward to add more. These include:
 - `always_sample`: Sample all traces
 - `latency`: Sample based on the duration of the trace. The duration is determined by looking at the earliest start time and latest end time, without taking into consideration what happened in between.
 - `numeric_attribute`: Sample based on number attributes
